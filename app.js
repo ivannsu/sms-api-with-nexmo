@@ -6,7 +6,8 @@ const nexmo = new Nexmo({
 });
 
 const from = 'Ivan.COM';
-const to = 6282255517049;
-const text = `A text message from ${from}`;
+const to = 6281294154738;
+// const to = 6282255517049;
+const text = `Hai feel free to modified the code ! - ${from}\n`;
 
 nexmo.message.sendSms(from, to, text);
